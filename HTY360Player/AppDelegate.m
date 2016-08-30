@@ -15,7 +15,14 @@
 
 @implementation AppDelegate
 
-
+/**
+ *  怎么设置cell 
+ *
+ *  @param application   <#application description#>
+ *  @param launchOptions <#launchOptions description#>
+ *
+ *  @return <#return value description#>
+ */
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.viewController = [[HTYMenuVC alloc] initWithNibName:@"HTYMenuVC" bundle:[NSBundle mainBundle]];
